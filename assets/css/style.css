@@ -34,6 +34,27 @@ body {
     bottom: 50%;
 }
 
+a:link {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+
 #nameHeader {
     color: #ffffff;
 }
@@ -52,7 +73,7 @@ h1 {
     flex: 1;
 }
 
-img {
+#mePic {
     float: left;
     margin: 10px 25px 0 0;
 }
@@ -67,6 +88,31 @@ img {
 small {
     color: lightgray;
     position: relative;
-    top: 50%;
+    top: 15px;
     left: 50%;
+}
+
+#portfolioSection {
+    background: #ffffff;
+    max-width: 960px;
+    margin: 75px auto;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    color: #777777;
+}
+
+.portfolioItem {
+    margin: 10px 25px 0 0;
+    float: left;
+}
+
+.itemLogo {
+    background: #4aaaa5;
+    position: relative;
+    bottom: 75px;
+    width: 200px;
+    height: 35px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
 }
