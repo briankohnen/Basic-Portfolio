@@ -30,8 +30,8 @@ body {
 
 #siteNav {
     position: absolute;
-    right: 200px;
-    bottom: 50%;
+    right: 50px;
+    top: 50px;
 }
 
 a:link {
@@ -115,4 +115,24 @@ small {
     color: white;
     box-sizing: border-box;
     text-align: center;
+}
+
+#contactSection {
+    background: #ffffff;
+    max-width: 960px;
+    margin: 75px auto;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    color: #777777;
+}
+
+.contactLabel {
+    margin: 10px 25px 0 0;
+    display: block;
+}
+
+.contactForm {
+    margin: 10px 25px 0 0;
+    display: block;
+    width: 650px;
 }

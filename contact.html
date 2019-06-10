@@ -9,6 +9,7 @@
     <script src='main.js'></script>
 </head>
 <body background="assets/images/papyrus.png">
+   
     <section id="headContainer">
        
         <div id="nameLogo">
@@ -25,21 +26,20 @@
 
     </section>
 
-    <section id="contentSection">
+    <section id="contactSection">
 
         <h1>Contact</h1>
         
         <hr>
+            <label for="userName" class="contactLabel">Your Name</label>
+                <input class="contactForm" type="text" id="userName" name="flName" placeholder="John Smith">
 
-        <label for="userName">Your Name</label>
-            <input type="text" id="userName" name="flName" placeholder="John Smith">
+            <label for="userEmail" class="contactLabel">E-mail</label>
+                <input class="contactForm" type="text" id="userEmail" name="email" placeholder="johnsmith@email.com">
 
-        <label for="userEmail">E-mail</label>
-            <input type="text" id="userEmail" name="email" placeholder="johnsmith@email.com">
-
-        <label for="message">What do you think?</label>
-            <textarea id="message" name="subject" placeholder="Type here..." style="height:200px">
-            </textarea>
+            <label for="message" class="contactLabel">What do you think?</label>
+                <textarea class="contactForm" id="message" name="subject" placeholder="Type here..." style="height:200px">
+                </textarea>
 
         <button type="button">Submit</button>
 
