@@ -11,7 +11,7 @@ body {
 #headContainer {
     width: 100%;
     height: 120px;
-    background: #ffffff;
+    background: #fbfbfb;
     text-align: right;
     position: relative;
     top: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 #nameLogo {
-    background: #4aaaa5;
+    background: #51C7E8;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -45,7 +45,7 @@ a:visited {
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: #51C7E8;
     text-decoration: underline;
 }
 
@@ -60,11 +60,11 @@ a:active {
 }
 
 h1 {
-    color: #4aaaa5;
+    color: #51C7E8;
 }
 
 #contentSection {
-    background: #ffffff;
+    background: #fbfbfb;
     max-width: 960px;
     margin: 75px auto;
     padding: 25px;
@@ -80,7 +80,7 @@ h1 {
 
 #footer {
     width: 100%;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #51C7E8;
     height: 50px;
     background: #666666;
 }
@@ -93,7 +93,7 @@ small {
 }
 
 #portfolioSection {
-    background: #ffffff;
+    background: #fbfbfb;
     max-width: 960px;
     margin: 75px auto;
     padding: 25px;
@@ -115,7 +115,7 @@ small {
   }
 
 .itemLogo {
-    background: #4aaaa5;
+    background: #51C7E8;
     position: relative;
     bottom: 75px;
     width: 200px;
@@ -126,7 +126,7 @@ small {
 }
 
 #contactSection {
-    background: #ffffff;
+    background: #fbfbfb;
     max-width: 960px;
     margin: 75px auto;
     padding: 25px;
