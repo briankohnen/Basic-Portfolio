@@ -30,9 +30,16 @@ body {
 }
 
 #siteNav {
+    float: right;
     position: absolute;
     right: 50px;
     top: 50px;
+}
+
+@media screen and (max-width: 100vh) {
+    #nameLogo {
+        display: none;
+    }
 }
 
 a:link {
@@ -54,7 +61,6 @@ a:active {
     color: lightgrey;
     text-decoration: underline;
 }
-
 
 #nameHeader {
     color: #ffffff;
@@ -103,7 +109,7 @@ small {
 }
 
 .portfolioItem {
-    margin: 10px 25px 0 0;
+    margin: 10px 25px 0 25px;
     float: left;
 }
 
